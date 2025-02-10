@@ -1,0 +1,94 @@
+
+#indexmain {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 100px 20px;
+    flex-direction: column; 
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Playfair+Display:wght@400&display=swap');
+
+#indexmain {
+    font-family: 'Poppins', sans-serif; 
+}
+
+
+.text-container {
+    margin-bottom: 30px;
+}
+
+
+.text-container h2 {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 700;
+    color: #fff;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    font-family: 'Playfair Display', serif; 
+    font-weight: 400;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+
+.social-links {
+    margin-top: 25px;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #0069d9;
+}
+
+
+.video-container {
+    width: 100%; 
+    max-width: 800px; 
+    height: auto; 
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+/*Carrusel */
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .row {
+    display: flex;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .col-2 {
+    flex: 1 0 16.66%;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #icon-carousel {
+    position: relative;
+  }
+  

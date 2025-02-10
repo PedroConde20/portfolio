@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <link href="assets/img/logonew.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap"
+    rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- css -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="portfolio-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- log -->
+        <!-- <img src="assets/img/logo4.png" alt=""> -->
+        <h1 class="sitename">Portfolio Page</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" ><b>Home</b></a></li>
+          <li><a href="about.html"><b>About</b></a></li>
+          <li><a href="resume.html"><b>Resume</b></a></li>
+          <li><a href="portfolio.html" class="active"><b>Portfolio</b></a></li>
+          <li><a href="contact.html"><b>Contact</b></a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main" data-aos="fade">
+
+    <!-- titulo -->
+    <div class="page-title"
+      style="background: url('assets/img/bg/bg4.png') no-repeat center center fixed !important; background-size: 100% 100vh !important;">
+     
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>My Projects</h1>
+              <p class="mb-0">Explore a diverse range of projects showcasing my skills and expertise across various
+                fields, from Data Science and Machine Learning to Web Development and Virtual Reality. Each project
+                represents my dedication to delivering innovative solutions, ensuring high-quality results, and pushing
+                the boundaries of technology</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section"
+      style="background: url('assets/img/bg/bg4.png') no-repeat center center fixed !important; background-size: 100% 100vh !important;">
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-datascience">Data Science & ML</li>
+            <li data-filter=".filter-sqma">SPM & SQA (Project Management & Quality Assurance)</li>
+            <li data-filter=".filter-mobile">Mobile Applications</li>
+            <li data-filter=".filter-web">Web Development</li>
+            <li data-filter=".filter-vr">Virtual Reality</li>
+            <li data-filter=".filter-systems">Systems & Databases</li>
+            <li data-filter=".filter-imavideo">Images & Video</li>
+          </ul>
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <!-- 13. Predicción de Precios de Casas (PySpark) -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-datascience">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/prediccion/ropa0.png" class="img-fluid" alt="Predicción de Precios">
+                <div class="portfolio-info">
+                  <h4>Price Prediction</h4>
+                  <p>PySpark model to predict house prices using cross-validation.</p>
+                  <a href="assets/img/portfolio/prediccion/ropa0.png" title="Predicción de Precios"
+                    data-gallery="portfolio-gallery-datascience" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=prediccion-precios" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 15. Detección de Noticias Falsas (Machine Learning) -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-datascience">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/fakenews/noti0.png" class="img-fluid" alt="Noticias Falsas">
+                <div class="portfolio-info">
+                  <h4>Fake News Detection</h4>
+                  <p>Web application that uses ML (NBC, SVM, LSTM) to identify fake news.</p>
+                  <a href="assets/img/portfolio/fakenews/noti0.png" title="Noticias Falsas"
+                    data-gallery="portfolio-gallery-datascience" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=noticias-falsas" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 16. Clasificación de Ropa (Fashion MNIST) -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-datascience">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/neuro/neuro0.png" class="img-fluid" alt="Clasificación de Prendas">
+                <div class="portfolio-info">
+                  <h4>Clothing Classification Neural Network</h4>
+                  <p>Neural network to classify images from the Fashion MNIST dataset with an accuracy of over 85%.</p>
+
+                  <a href="assets/img/portfolio/neuro/neuro0.png" title="Clasificación de Prendas"
+                    data-gallery="portfolio-gallery-datascience" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=clasificacion-prendas" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 17. Detección de Objetos con TensorFlow -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-datascience">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/objetos/objetos0.png" class="img-fluid" alt="Detección de Objetos">
+                <div class="portfolio-info">
+                  <h4>Object Detection</h4>
+                  <p>System that uses pre-trained TensorFlow models and NMS to detect objects in images.</p>
+
+                  </p>
+                  <a href="assets/img/portfolio/objetos/objetos0.png" title="Detección de Objetos"
+                    data-gallery="portfolio-gallery-datascience" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=deteccion-objetos" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- 1. Regresión Lineal (Estadística Computacional) -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-datascience">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/regresion/regre.png" class="img-fluid" alt="Regresión Lineal">
+                <div class="portfolio-info">
+                  <h4>Linear Regression</h4>
+                  <p>Implementation of a linear regression model (analytical and iterative with gradient descent).</p>
+
+                  </p>
+                  <a href="assets/img/portfolio/regresion/regre.png" title="Regresión Lineal"
+                    data-gallery="portfolio-gallery-datascience" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=regresion-lineal" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 18. Transcripción de Audio a Texto (Web con ML) -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/voicetotext/voice0.png" class="img-fluid" alt="Transcripción de Audio">
+                <div class="portfolio-info">
+                  <h4>Audio Transcription</h4>
+                  <p>Web application that converts audio to text using Flask and the OpenAI Whisper API.</p>
+
+                  <a href="assets/img/portfolio/voicetotext/voice0.png" title="Transcripción de Audio"
+                    data-gallery="portfolio-gallery-web" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=transcripcion-audio" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- ================================
+       Imágenes & Video Processing
+       ================================ -->
+            <!-- 14. Streaming de Imágenes con Kafka & OpenCV -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-imavideo">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/kafka/kafka0.png" class="img-fluid" alt="Streaming con Kafka & OpenCV">
+                <div class="portfolio-info">
+                  <h4>Streaming with Kafka & OpenCV</h4>
+                  <p>System that processes images in real-time and sends them through Kafka.</p>
+
+                  <a href="assets/img/portfolio/kafka/kafka0.png" title="Streaming con Kafka & OpenCV"
+                    data-gallery="portfolio-gallery-imagenes" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=streaming-kafka" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2. Procesamiento Digital de Imágenes (AForge.NET) -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-imavideo">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio//Aforge/Aforge1.png" class="img-fluid"
+                  alt="Procesamiento Digital de Imágenes">
+                <div class="portfolio-info">
+                  <h4>Image Processing</h4>
+                  <p>C# application that captures video, applies filters, and performs blob counting.</p>
+
+                  <a href="assets/img/portfolio/Aforge/Aforge1.png" title="Procesamiento de Imágenes"
+                    data-gallery="portfolio-gallery-imagenes" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=procesamiento-imagenes" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. Captura y Grabación de Video (WPF/WinForms) -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-imavideo">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/grabarcaptura1.png" class="img-fluid" alt="Captura y Grabación de Video">
+                <div class="portfolio-info">
+                  <h4>Video Capture</h4>
+                  <p>C# application for screen and camera recording using AForge and Accord.Video.FFMPEG.</p>
+
+                  <a href="assets/img/portfolio/grabarcaptura1.png" title="Captura de Video"
+                    data-gallery="portfolio-gallery-imagenes" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=captura-video" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- ================================
+       Aplicaciones Móviles
+       ================================ -->
+
+            <!-- 4. PetShop App (Android Studio) -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Petshop/Petshop1.png" class="img-fluid" alt="PetShop App">
+                <div class="portfolio-info">
+                  <h4>PetShop App</h4>
+                  <p>App for veterinary clinics that manages appointments and communication via WhatsApp.</p>
+
+                  <a href="assets/img/portfolio/Petshop/Petshop1.png" title="PetShop App"
+                    data-gallery="portfolio-gallery-mobile" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=petshop-app" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 11. MAYPIVAC (Flutter) -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/maypivac/maypi1.png" class="img-fluid" alt="MAYPIVAC">
+                <div class="portfolio-info">
+                  <h4>MAYPIVAC</h4>
+                  <p>Flutter app to map vaccination points and manage records in Firebase.</p>
+                  <a href="assets/img/portfolio/maypivac/maypi1.png" title="MAYPIVAC"
+                    data-gallery="portfolio-gallery-mobile" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=maypivac" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 20. Taxi Segurito V1 (Flutter/PHP) -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Taxi/taxi00.png" class="img-fluid" alt="Taxi Segurito V1">
+                <div class="portfolio-info">
+                  <h4>Taxi Segurito V1</h4>
+                  <p>Uber-style app for taxi management, developed in Flutter and PHP.</p>
+
+                  <a href="assets/img/portfolio/Taxi/taxi00.png" title="Taxi Segurito V1"
+                    data-gallery="portfolio-gallery-mobile" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=taxi-segurito" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- ================================
+       Desarrollo Web & Full Stack
+       ================================ -->
+
+            <!-- 5. Sistema de Gestión Web (Laravel/AngularJS) -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/laravel/laravel1.png" class="img-fluid" alt="Sistema de Gestión Web">
+                <div class="portfolio-info">
+                  <h4>Web Management System</h4>
+                  <p>CRUD system for clients and products using Laravel and AngularJS.</p>
+                  <a href="assets/img/portfolio/laravel/laravel1.png" title="Sistema de Gestión Web"
+                    data-gallery="portfolio-gallery-web" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=gestion-web" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 6. Gestión de Profesores (Laravel) -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/crud/crudprofe1.png" class="img-fluid" alt="Gestión de Profesores">
+                <div class="portfolio-info">
+                  <h4>Teacher Management</h4>
+                  <p>CRUD module and JSON API to manage teacher records in Laravel.</p>
+
+                  <a href="assets/img/portfolio/crud/crudprofe1.png" title="Gestión de Profesores"
+                    data-gallery="portfolio-gallery-web" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=gestion-profesores" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+
+            <!-- ================================
+       Sistemas & Bases de Datos
+       ================================ -->
+
+            <!-- 7. Cluster Cassandra con Docker -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-systems">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/clustercasandra/cluster00.png" class="img-fluid" alt="Cluster Cassandra">
+                <div class="portfolio-info">
+                  <h4>Cassandra Cluster</h4>
+                  <p>Cluster configuration of Cassandra with Docker Compose and data replication.</p>
+
+                  <a href="assets/img/portfolio/clustercasandra/cluster00.png" title="Cluster Cassandra"
+                    data-gallery="portfolio-gallery-systems" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=cluster-cassandra" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 8. Sistema de Pedidos de Comida (Microservicios) -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-systems">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/springpropuesta/propuesta0.png" class="img-fluid"
+                  alt="Sistema de Pedidos">
+                <div class="portfolio-info">
+                  <h4>Order System Proposal</h4>
+                  <p>Proposal for a microservices-based platform with Spring Boot to manage food orders.</p>
+
+                  <a href="assets/img/portfolio/springpropuesta/propuesta0.png" title="Sistema de Pedidos de Comida"
+                    data-gallery="portfolio-gallery-systems" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=pedidos-comida" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 9. Replicación de BD & WordPress -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-systems">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/replicacion/repli0.png" class="img-fluid"
+                  alt="Replicación BD & WordPress">
+                <div class="portfolio-info">
+                  <h4>Database Replication & WordPress</h4>
+                  <p>MySQL replication setup and WordPress installation on Ubuntu.</p>
+                  <a href="assets/img/portfolio/replicacion/repli0.png" title="Replicación BD & WordPress"
+                    data-gallery="portfolio-gallery-systems" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=replicacion-bd" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 19. Sistema Transaccional de Ventas -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-systems">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Valcot1.png" class="img-fluid" alt="Sistema de Ventas">
+                <div class="portfolio-info">
+                  <h4>Sales System and Valcot Receipt</h4>
+                  <p>Windows Forms application to manage wine sales and derivatives with Crystal Reports.</p>
+
+                  <a href="assets/img/portfolio/Valcot1.png" title="Sistema de Ventas"
+                    data-gallery="portfolio-gallery-systems" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=sistema-ventas" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- ================================
+       Software Project Management
+       ================================ -->
+
+            <!-- 10. BIBLIOTRUEQUE SPM -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sqma">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/spm/spm1.png" class="img-fluid" alt="BIBLIOTRUEQUE">
+                <div class="portfolio-info">
+                  <h4>BIBLIOTRUEQUE</h4>
+                  <p>Software project management on a web platform for book exchange.</p>
+
+                  <a href="assets/img/portfolio/spm/spm1.png" title="BIBLIOTRUEQUE" data-gallery="portfolio-gallery-spm"
+                    class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=bibliotrueque" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 21. Alternativa SQA -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sqma">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/sqa/sqa1.png" class="img-fluid" alt="BIBLIOTRUEQUE">
+                <div class="portfolio-info">
+                  <h4>Alternativa (Appointments)</h4>
+                  <p>Quality assurance on a web platform for appointment scheduling.</p>
+
+                  <a href="assets/img/portfolio/sqa/sqa1.png" title="BIBLIOTRUEQUE" data-gallery="portfolio-gallery-spm"
+                    class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=alternativa" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- ================================
+       Realidad Virtual
+       ================================ -->
+
+            <!-- 12. Terapéutica VR para Fobias -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vr">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Vr/vr1.png" class="img-fluid" alt="Terapéutica VR">
+                <div class="portfolio-info">
+                  <h4>VR Therapy</h4>
+                  <p>Interactive 3D-designed game-based application to support the treatment of phobias.</p>
+
+                  <a href="assets/img/portfolio/Vr/vr1.png" title="Terapéutica VR" data-gallery="portfolio-gallery-vr"
+                    class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="portfolio-details.html?id=terapeutica-vr" title="Más Detalles" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Portfolio -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <div class="text-center mb-4">
+        <p class="footer-description lead">Creating solutions with passion, design, and code.</p>
+      </div>
+
+      <div class="text-center mb-4">
+        <a href="#" class="text-light mx-3"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="text-light mx-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-light mx-3"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-light mx-3"><i class="bi bi-skype"></i></a>
+        <a href="#" class="text-light mx-3"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-12 col-md-6 text-center text-md-left mb-3 mb-md-0">
+          <span>&copy; 2025 <strong>Pedro Conde Portfolio</strong> - All Rights Reserved</span>
+        </div>
+        <div class="col-12 col-md-6 text-center text-md-right">
+          <span>Designed and Developed by <a href="https://yourportfolio.com" class="text-light">Pedro Conde</a></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
